@@ -1,0 +1,4 @@
+co/konecta/linde/certificate/runners/ReportePetroleoRunner.java
+ co.konecta.linde.certificate.runners.ReportePetroleoRunner
+co/konecta/linde/certificate/stepsdefinitions/ReportePetroleoStepsDefinitions.java
+ co.konecta.linde.certificate.stepsdefinitions.ReportePetroleoStepsDefinitions

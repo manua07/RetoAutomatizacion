@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Reporte petroleo" skipped="0" tests="1" time="37.25" timestamp="2022-05-22 10:55:43"><testcase name="Descargar reporte de petroleo"><error message="invalid selector: Unable to locate an element with the xpath expression /html/body/portletapi:init/div[1]/portletapi:init/portletapi:init/header/div[2]/nav/ul/li[5]/a because of the following error:&#10;NamespaceError: Failed to execute 'evaluate' on 'Document': The string '/html/body/portletapi:init/div[1]/portletapi:init/portletapi:init/header/div[2]/nav/ul/li[5]/a' contains unresolvable namespaces.&#10;  (Session info: chrome=101.0.4951.67)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'SSMED5CG1100JY9', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\YAIRA~1.ACE\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cad2c183bc90e1f77d596fc02e415efe&#10;*** Element info: {Using=xpath, value=/html/body/portletapi:init/div[1]/portletapi:init/portletapi:init/header/div[2]/nav/ul/li[5]/a}" type="org.openqa.selenium.InvalidSelectorException">invalid selector: Unable to locate an element with the xpath expression /html/body/portletapi:init/div[1]/portletapi:init/portletapi:init/header/div[2]/nav/ul/li[5]/a because of the following error:
+NamespaceError: Failed to execute 'evaluate' on 'Document': The string '/html/body/portletapi:init/div[1]/portletapi:init/portletapi:init/header/div[2]/nav/ul/li[5]/a' contains unresolvable namespaces.
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'SSMED5CG1100JY9', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\YAIRA~1.ACE\AppDat...}, goog:chromeOptions: {debuggerAddress: localhost:59122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cad2c183bc90e1f77d596fc02e415efe
+*** Element info: {Using=xpath, value=/html/body/portletapi:init/div[1]/portletapi:init/portletapi:init/header/div[2]/nav/ul/li[5]/a}</error><system-err>invalid
+    selector: Unable to locate an element with the xpath expression
+    /html/body/portletapi:init/div[1]/portletapi:init/portletapi:init/header/div[2]/nav/ul/li[5]/a because of the
+    following error:
+    NamespaceError: Failed to execute 'evaluate' on 'Document': The string
+    '/html/body/portletapi:init/div[1]/portletapi:init/portletapi:init/header/div[2]/nav/ul/li[5]/a' contains
+    unresolvable namespaces.
+    (Session info: chrome=101.0.4951.67)
+    For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+    Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+    System info: host: 'SSMED5CG1100JY9', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version:
+    '10.0', java.version: '1.8.0_251'
+    Driver info: org.openqa.selenium.remote.RemoteWebDriver
+    Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome:
+    {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\YAIRA~1.ACE\AppDat...},
+    goog:chromeOptions: {debuggerAddress: localhost:59122}, javascriptEnabled: true, networkConnectionEnabled: false,
+    pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true,
+    strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior:
+    dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true,
+    webauthn:virtualAuthenticators: true}
+    Session ID: cad2c183bc90e1f77d596fc02e415efe
+    *** Element info: {Using=xpath,
+    value=/html/body/portletapi:init/div[1]/portletapi:init/portletapi:init/header/div[2]/nav/ul/li[5]/a}&#13;
+    co.sophos.banitsmo.certificate.stepsdefinitions.ReportePetroleoStepsDefinitions.seleccionaOpcionCapital(ReportePetroleoStepsDefinitions.java:45)&#13;
+    cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

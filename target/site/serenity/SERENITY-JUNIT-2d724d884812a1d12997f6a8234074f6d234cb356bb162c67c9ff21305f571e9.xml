@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Level Report" skipped="0" tests="1" time="228.73" timestamp="2021-05-03 10:04:29"><testcase name="Create level report correctly"><error message="The following error occurred: element click intercepted: Element &lt;span class=&quot;select2-selection__arrow&quot; role=&quot;presentation&quot;&gt;...&lt;/span&gt; is not clickable at point (913, 463). Other element would receive the click: &lt;div class=&quot;col-sm-6&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=90.0.4430.85)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'MANUELA-ACEVEDO', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\manue\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7e34a662ed943a812c5b232be05d50c4" type="org.openqa.selenium.ElementClickInterceptedException">The following error occurred: element click intercepted: Element &lt;span class="select2-selection__arrow" role="presentation"&gt;...&lt;/span&gt; is not clickable at point (913, 463). Other element would receive the click: &lt;div class="col-sm-6"&gt;...&lt;/div&gt;
+  (Session info: chrome=90.0.4430.85)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MANUELA-ACEVEDO', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\manue\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e34a662ed943a812c5b232be05d50c4</error><system-err>The following error occurred: element click intercepted:
+    Element &lt;span class="select2-selection__arrow" role="presentation"&gt;...&lt;/span&gt; is not clickable at point
+    (913, 463). Other element would receive the click: &lt;div class="col-sm-6"&gt;...&lt;/div&gt;
+    (Session info: chrome=90.0.4430.85)
+    Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+    System info: host: 'MANUELA-ACEVEDO', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version:
+    '10.0', java.version: '1.8.0_144'
+    Driver info: org.openqa.selenium.remote.RemoteWebDriver
+    Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome:
+    {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\manue\AppData\Loca...},
+    goog:chromeOptions: {debuggerAddress: localhost:64096}, javascriptEnabled: true, networkConnectionEnabled: false,
+    pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true,
+    strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior:
+    dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+    Session ID: 7e34a662ed943a812c5b232be05d50c4&#13;
+    co.sophos.banitsmo.certificate.task.AdditionalDataTask.performAs(AdditionalDataTask.java:31)&#13;
+    co.sophos.banitsmo.certificate.stepsdefinitions.LevelReportStepsDefinitions.iEnterTheContactLevelNameAndPhoneAndDeliveryAddressAndEmail(LevelReportStepsDefinitions.java:73)&#13;
+    cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

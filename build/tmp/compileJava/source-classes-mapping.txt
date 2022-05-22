@@ -1,0 +1,6 @@
+co/konecta/linde/certificate/task/ReportePetroleoTask.java
+ co.konecta.linde.certificate.task.ReportePetroleoTask
+co/konecta/linde/certificate/userinterface/HomePage.java
+ co.konecta.linde.certificate.userinterface.HomePage
+co/konecta/linde/certificate/userinterface/ReportePetroleoPage.java
+ co.konecta.linde.certificate.userinterface.ReportePetroleoPage

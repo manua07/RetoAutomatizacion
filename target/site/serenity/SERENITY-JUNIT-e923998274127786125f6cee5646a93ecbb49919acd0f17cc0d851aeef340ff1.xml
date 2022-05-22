@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Technical service" skipped="0" tests="1" time="276.52" timestamp="2021-05-01 10:29:35"><testcase name="Create technical service correctly"><error message="The following error occurred: element click intercepted: Element is not clickable at point (1406, 578)&#10;  (Session info: chrome=90.0.4430.85)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'MANUELA-ACEVEDO', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\manue\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6d8bf59dda43a06efea8c68e8b471bb8" type="org.openqa.selenium.ElementClickInterceptedException">The following error occurred: element click intercepted: Element is not clickable at point (1406, 578)
+  (Session info: chrome=90.0.4430.85)
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'MANUELA-ACEVEDO', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\manue\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50685}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6d8bf59dda43a06efea8c68e8b471bb8</error><system-err>The following error occurred: element click intercepted:
+    Element is not clickable at point (1406, 578)
+    (Session info: chrome=90.0.4430.85)
+    Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+    System info: host: 'MANUELA-ACEVEDO', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version:
+    '10.0', java.version: '1.8.0_144'
+    Driver info: org.openqa.selenium.remote.RemoteWebDriver
+    Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome:
+    {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\manue\AppData\Loca...},
+    goog:chromeOptions: {debuggerAddress: localhost:50685}, javascriptEnabled: true, networkConnectionEnabled: false,
+    pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true,
+    strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior:
+    dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+    Session ID: 6d8bf59dda43a06efea8c68e8b471bb8&#13;
+    co.sophos.banitsmo.certificate.stepsdefinitions.TechnicalServiceStepsDefinitions.iEnterTheTeamToReportAndTheDetailFailsAndTheObservations(TechnicalServiceStepsDefinitions.java:48)&#13;
+    cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

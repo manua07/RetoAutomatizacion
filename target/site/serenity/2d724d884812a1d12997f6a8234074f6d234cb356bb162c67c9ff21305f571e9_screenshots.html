@@ -1,0 +1,270 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="6912e9b1987d4364b7ad59b5f41602deb142a36d7200528d40b95c21bc0fa658.html">Level Report</a></span>
+                > <span class="truncate-60"><a
+                    href="2d724d884812a1d12997f6a8234074f6d234cb356bb162c67c9ff21305f571e9.html">Create level report correctly </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-05-2021 22:04</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Level Report </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                As a user I need create a level report
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="test-case-title">
+                                <span class="error-color">Create level report correctly
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given i am create level report in the application<br>
+And i enter the information login country &lt;country&gt; and the clientcode &lt;clientcode&gt; and the idfiscal &lt;idfiscal&gt; and the email &lt;email&gt;<br>
+When i enter the tank &lt;tank&gt; and the tank level &lt;tanklevel&gt; and the person reporting level &lt;personreportinglevel&gt; and the Date of level measurement &lt;datelevelmeasurement&gt; and the observations &lt;observations&gt;<br>
+And i enter the contact level name &lt;contactname&gt; and phone &lt;phone&gt; and delivery address &lt;deliveryaddress&gt; and email &lt;email&gt;<br>
+Then user view &lt;modalinformation&gt; in the application</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="Element click intercepted exception: The following error occurred: element click intercepted: Element (span class='select2-selection__arrow' role='presentation')...(/span) is not clickable at point (913, 463). Other element would receive the click: (div class='col-sm-6')...(/div)">
+                            Element click intercepted exception: The following error occurred: element click intercepted: Element (span class='select2-selection__arrow' role='presentation')...(/span) is not clickable at point (913, 463). Other element would receive the...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    org.openqa.selenium.ElementClickInterceptedException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>The following error occurred: element click intercepted: Element &lt;span class=&quot;select2-selection__arrow&quot; role=&quot;presentation&quot;&gt;...&lt;/span&gt; is not clickable at point (913, 463). Other element would receive the click: &lt;div class=&quot;col-sm-6&quot;&gt;...&lt;/div&gt;<br>  (Session info: chrome=90.0.4430.85)<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'MANUELA-ACEVEDO', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\manue\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64096}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}<br>Session ID: 7e34a662ed943a812c5b232be05d50c4</pre>
+                                    </h5>
+                                    co.sophos.banitsmo.certificate.task.AdditionalDataTask.performAs(AdditionalDataTask.java
+                                    :31) <br>
+                                    co.sophos.banitsmo.certificate.stepsdefinitions.LevelReportStepsDefinitions.iEnterTheContactLevelNameAndPhoneAndDeliveryAddressAndEmail(LevelReportStepsDefinitions.java
+                                    :73) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource5061220867902143588.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="f778b2d8a4cfc59ae5d9810a3c259a2e5cebd1591fb258ab5e12cebe4b0c3d45.png" title="Given i am create level report in the application" width="1366"/>
+                <img src="906f5212952000a89b39c05c654611b90c413e87f83b23a1148c5ce8e4790100.png" title="Usuario opens the Home page" width="1366"/>
+                <img src="f778b2d8a4cfc59ae5d9810a3c259a2e5cebd1591fb258ab5e12cebe4b0c3d45.png" title="And i enter the information login country AR and the clientcode 0130508 and the idfiscal 30503245988 and the email pruebas@gmail.com" width="1366"/>
+                <img src="01fa3ada9989b4346dc2e92508b2979bfd7aec39759d0f84bcd65fdd5a752260.png" title="And i enter the information login country AR and the clientcode 0130508 and the idfiscal 30503245988 and the email pruebas@gmail.com" width="1366"/>
+                <img src="f778b2d8a4cfc59ae5d9810a3c259a2e5cebd1591fb258ab5e12cebe4b0c3d45.png" title="Usuario selects AR in This the input country" width="1366"/>
+                <img src="ccd28b63887ccaf45eb760ca90d3a6b05cf690918ffc9f027f7d36ad31d5b49c.png" title="Usuario selects AR in This the input country" width="1366"/>
+                <img src="ccd28b63887ccaf45eb760ca90d3a6b05cf690918ffc9f027f7d36ad31d5b49c.png" title="Usuario enters '0130508' into This the input client code" width="1366"/>
+                <img src="e9f66bbbd410ca8cb3dad39a5e0ddfe4eb550edbd6baef0e5915f0ecbee16e02.png" title="Usuario enters '0130508' into This the input client code" width="1366"/>
+                <img src="e9f66bbbd410ca8cb3dad39a5e0ddfe4eb550edbd6baef0e5915f0ecbee16e02.png" title="Usuario enters '30503245988' into The message id fiscal" width="1366"/>
+                <img src="3816379626b47e32cfb7304c25d5b99189a8555b4fb948e520daeca6cfc4af20.png" title="Usuario enters '30503245988' into The message id fiscal" width="1366"/>
+                <img src="3816379626b47e32cfb7304c25d5b99189a8555b4fb948e520daeca6cfc4af20.png" title="Usuario enters 'pruebas@gmail.com' into This the input client code" width="1366"/>
+                <img src="01fa3ada9989b4346dc2e92508b2979bfd7aec39759d0f84bcd65fdd5a752260.png" title="Usuario enters 'pruebas@gmail.com' into This the input client code" width="1366"/>
+                <img src="94f96faa5c0ec28999524d956ef16ce32713079448d3226f56d82400105b502e.png" title="When i enter the tank 963 and the tank level 12 and the person reporting level pruebas automaticas and the Date of level measurement 25220211240 and the observations pruebas automaticas" width="1366"/>
+                <img src="d005d5e5ad8130cafa2de03c4e20b8ea7c463ee6786034a69e9c11a57248c50e.png" title="When i enter the tank 963 and the tank level 12 and the person reporting level pruebas automaticas and the Date of level measurement 25220211240 and the observations pruebas automaticas" width="1366"/>
+                <img src="94f96faa5c0ec28999524d956ef16ce32713079448d3226f56d82400105b502e.png" title="Usuario selects 963 in This the input tank" width="1366"/>
+                <img src="88f4877f3bbde427ee518e3369289beb5fae310974c020b97d97c4814de42032.png" title="Usuario selects 963 in This the input tank" width="1366"/>
+                <img src="b93b1a2f28df5e98df3d99921caaf64ced1ffa60666f73d536531670c052b2cd.png" title="Usuario enters '12' into This the input tank level" width="1366"/>
+                <img src="a7e57c3c9aa34c3b8321efe1887d5e46b55f4c8c8ca30532c45fe264768ed866.png" title="Usuario enters '12' into This the input tank level" width="1366"/>
+                <img src="cd0c15208717d0573a8e81e33a8ee60da2e428927533499cff109192eb34b9ef.png" title="Usuario enters 'pruebas automaticas' into This the input person reporting level" width="1366"/>
+                <img src="dffcea40a3ffba9485adde5a2e070d650144680f7ea5ca2cf6070813b302d779.png" title="Usuario enters 'pruebas automaticas' into This the input person reporting level" width="1366"/>
+                <img src="a197a8ece06de96cc382c2f7ecb200a50b065659cb52315664bf78e62c5823d1.png" title="Usuario enters '25220211240' into This the input date level measurement" width="1366"/>
+                <img src="1115609b7f5cf235c7156d091dfadead66b2241cd31b8cd4d4cd293ada7c1ddd.png" title="Usuario enters '25220211240' into This the input date level measurement" width="1366"/>
+                <img src="00949f4184b0b649064c9c86a7b5047de21c18b6ec9aebf6839bd8da43aba78b.png" title="Usuario enters 'pruebas automaticas' into This the input observations" width="1366"/>
+                <img src="25df72dfd72e70a7c0ff0db911cefd4d908098502b5a4d1802f2e3eb63af2215.png" title="Usuario enters 'pruebas automaticas' into This the input observations" width="1366"/>
+                <img src="8ca11b9adc136e6a13f03da5d3a4719102b4250e572161fc5098a3c52b903a7c.png" title="And i enter the contact level name pruebas nombre and phone 3122554676 and delivery address RUTA 33 KM 855 (PTA. LUDUE&Ntilde;A) and email pruebas@gmail.com" width="1366"/>
+                <img src="e187cffbf13b0f04ae2d2fba32e27fdf9ae2504508c193438205eb0b80818b87.png" title="Usuario enters 'pruebas nombre' into This the input contact name" width="1366"/>
+                <img src="bc53d5eeb862951464f6b032128835a9bd6b53126894c890541693130b40f86d.png" title="Usuario enters 'pruebas nombre' into This the input contact name" width="1366"/>
+                <img src="65e9d9a94badac3fd744ebf5102778707856ea7c8f6a28b5645db80daafce87b.png" title="Usuario enters '3122554676' into This the input phone" width="1366"/>
+                <img src="6ba46eab759de554fbdb4f9361b8fcc9282d21c599e979e6732918d37e601233.png" title="Usuario enters '3122554676' into This the input phone" width="1366"/>
+                <img src="b6ad0eece0f1731234f85565dbc60c02e5cb50ad2ef55c457b8ffa47405174db.png" title="Usuario clicks on This the input delivery address" width="1366"/>
+                <img src="b6ad0eece0f1731234f85565dbc60c02e5cb50ad2ef55c457b8ffa47405174db.png" title="Usuario clicks on This the input delivery address: <span class='error-color'>ERROR</span>" width="1366"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.9.9</span>
+</div>
+</body>
+</html>
